@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: red;
+    overflow: hidden;
+}
+.game{
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width:100%;
+    height:100vh;
+}
+.batman{
+    background-image: url(btmn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:360px;
+    height:270px;
+    position:absolute;
+    bottom:0;
+    left:12px;
+}
+
+.joker{
+    background-image: url(jokr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:270px;
+    height:215px;
+    position:absolute;
+    bottom:0;
+    left:44vw;
+}
+
+.jump{
+    background-image: url(btmanj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:400px;
+    height:250px;
+   
+   
+    left:12px;
+    animation: batman 1.5s linear;
+  
+}
+.jokrani{
+    animation: jokrani 3.5s linear infinite;
+}
+
+@keyframes batman{
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom:440px;
+    }
+    100%{
+        bottom:0;
+     
+    }
+}
+
+@keyframes jokrani{
+    0%{
+        left:100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
