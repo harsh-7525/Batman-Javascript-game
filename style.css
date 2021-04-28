@@ -52,6 +52,27 @@ body{
     animation: jokrani 3.5s linear infinite;
 }
 
+.gameOver{
+    position: relative;
+    top: 300px;
+    font-size: 100px;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: yellow;
+    visibility: hidden;
+}
+
+#sc{
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    top: 23px;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    width: 300px;
+}
+
 @keyframes batman{
     0%{
         bottom: 0;
